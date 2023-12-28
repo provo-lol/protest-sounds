@@ -1,0 +1,38 @@
+[home]
+other = "Huis"
+
+[posts]
+other = "Artikelen"
+
+[postslist]
+other = "Blog artikelen"
+
+[episodes]
+other = "Afleveringen"
+
+[more-episodes]
+other = "Meer afleveringen"
+
+[categories]
+other = "Categorieën"
+
+[tags]
+other = "Labels"
+
+[locations]
+other = "Locaties"
+
+[topics]
+other = "Onderwerpen"
+
+[duration]
+other = "Duur"
+
+[languages]
+other = "Talen"
+
+[backtohome]
+other = "Terug naar de hoofdpagina"
+
+[builton]
+other = "Gebouwd met"

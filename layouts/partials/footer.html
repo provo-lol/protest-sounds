@@ -1,0 +1,10 @@
+<footer class="container">
+    <hr class="soften">
+    <p>
+        {{- partial "copyright.html" . -}}
+    </p>
+    <p class="text-center">
+        {{ with .Site.Params.mastodon }}<a href="{{ . }}">Mastodon</a> {{ end }}
+    </p>
+</footer>
+

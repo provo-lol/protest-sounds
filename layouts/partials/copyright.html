@@ -1,0 +1,9 @@
+{{ if .Site.Params.showhugo }}
+        {{ i18n "builton" }} <a href="//gohugo.io" target="_blank">Hugo</a>
+        with  {{ with .Site.Params.Copyright.Prefix }}
+        {{ . | markdownify }}
+    {{end}}
+    {{ with .Site.Params.Copyright.Suffix }}
+    {{ . | markdownify }}
+{{end}}
+{{ end }}

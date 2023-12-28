@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Protestgeluiden</title>
+    <link>https://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Protestgeluiden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl</language>
+    <lastBuildDate>Sat, 23 Dec 2023 17:21:40 +0100</lastBuildDate><atom:link href="https://localhost:1313/categories/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amsterdam</title>
+      <link>https://localhost:1313/categories/amsterdam/</link>
+      <pubDate>Sat, 23 Dec 2023 17:21:40 +0100</pubDate>
+      
+      <guid>https://localhost:1313/categories/amsterdam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

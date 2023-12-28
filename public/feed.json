@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Protestgeluiden",
+    "home_page_url": "https://localhost:1313/",
+    "feed_url": "https://localhost:1313/feed.json",
+    "description": "<no value>",
+    "favicon": "https://localhost:1313//assets/favicon.ico",
+    "expired": false,
+    "author": {
+      "name": "map[email:provolol@proton.me name:Provolol]",
+      "url": "https://localhost:1313/"
+    },
+    "items": [
+      
+      
+  
+      
+    ]
+  }

@@ -1,0 +1,87 @@
+baseURL: "https://localhost:1313/"
+title: "Protestgeluiden"
+languageCode: nl
+theme: hugo.386
+preserveTaxonomyNames: true
+
+params:
+  author:
+    name: Provolol
+    email: provolol@proton.me
+  mastodon: https://provo.lol/@provo
+
+  mainSections: ["blog", "episodes"]
+
+  mainpagetitle: Protestgeluiden
+  mainpagesubtitle: Laat je horen!
+  mainpagedesc: Terwijl de wereld in brand staat, staan sommige mensen op uit protest. Dit zijn hun geluiden.
+  copyrightname: 
+  copyrighturl: 
+  showhugo: false
+  loadfastload: true
+  loadspeedfactor: 1
+  loadonepass: true
+
+  podcast:
+    description: >-
+      Terwijl de wereld in brand staat, staan sommige mensen op uit protest. Dit zijn hun geluiden.
+    tagline: Laat je horen!
+    download_url: 'https://provo.lol/storage/protest/'
+    cdn_url: 'https://protest.provo.lol'
+    itunes_url: ''
+    itunes_id: ''
+
+menu:
+  main:
+    - identifier: over
+      name: Over
+      url: /over/
+      weight: 10
+    - identifier: afleveringen
+      name: Afleveringen
+      url: /post/
+      weight: 20
+    - identifier: rss
+      name: Podcast RSS
+      url: /feed/mp3/index.xml
+      weight: 30
+
+taxonomies:
+  category: categories
+  tag: tags
+
+DefaultContentLanguage: nl
+languages:
+  nl:
+    title: "Protestgeluiden"
+    languageName: Nederlands
+    weight: 1
+  en:
+    title: "Protest sounds"
+    languageName: English
+    weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - mp3feed
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: atom
+
+  JSON:
+    mediatype: "application/json"
+    baseName: feed
+
+  mp3feed:
+    MediaType: "application/rss+xml"
+    BaseName: "index"
+    path: "/feed/mp3"
+    IsHTML: false
+    IsPlainText: true
+    noUgly: true
+    Rel: "alternate"

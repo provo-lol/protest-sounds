@@ -1,0 +1,48 @@
+{{ define "main" }}
+<article class="row-fluid navmargin">
+    <header class="page-header">
+        <h1>{{.Title}}</h1>
+    </header>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+</article>
+<ul>
+<!-- Ranges through content/posts/*.md -->
+    <!-- {{ range .Pages }}
+        <li> 
+            <ul>
+                <li>{{.Title}}</li>
+                <li>{{ .Params.location}}, {{.Date.Format "02 January 2006"}}</li>
+                <li>duur: {{ .Params.mp3.duration }}</li>
+                <br/>
+                <li>{{ .Params.description }}</li>
+                <br/>
+                <li>{{ i18n "topics" }}: 
+                    {{ range $i, $e := .Params.tags -}}
+                    {{- if $i -}}, {{ end -}}
+                        {{ $e }}
+                    {{- end -}}
+                </li>
+            </ul>
+        </li>
+    {{ end }} -->
+
+    {{ range .Pages }}
+    <li>
+        <a href="{{.Permalink}}">
+        {{.Title}}<br/>
+        {{ .Params.location}}, {{.Date.Format "2 January 2006"}}</a><br/>
+        {{ i18n "duration" }}: {{ .Params.mp3.duration }} <br/>
+        <!-- {{ .Params.description }} -->
+        {{ i18n "topics" }}: 
+            {{ range $i, $e := .Params.tags -}}
+                 {{- if $i -}}, {{ end -}}
+                 {{ $e }}
+            {{- end -}}<br/>
+            <br/>
+        </li>
+    {{ end }}
+</ul>
+<h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+{{ end }}
+

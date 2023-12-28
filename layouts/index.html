@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Site.Params.mainpagetitle }}</h1>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span9 bs-docs-sidebar">
+        <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
+        <p></p>
+        <p>{{ .Site.Params.mainpagedesc }}</p>
+        <p></p>
+        <hr class="soften">
+        <p></p>
+        <div>
+            {{ range first 2 .Site.RegularPages.ByPublishDate.Reverse }}
+            {{ if eq .Type "post" }}
+            <a href="{{ .Permalink }}"> {{ .Title }}, {{ .Params.Location }}, {{ .Date.Format "02 January 2006" }}
+            <img src="{{ with .Params.image }}{{ . }}{{ end }}" /></a>
+                {{ if .Params.mp3 }}
+
+                <audio id="player" controls>
+                    <source src="/audio/{{ .Params.mp3.asset_link }}" type="audio/mp3" />
+                </audio>
+                
+                <script>
+                    const player = new Plyr('#player');
+                </script>
+        
+                {{ end }} 
+            {{ end }}
+            {{ end }}
+            </div>
+          <p></p>
+        <!-- <h1><a href="/post">{{ i18n "more-episodes" }}</a></h1>
+        <p></p>
+        <ul>
+            {{ range first 10 (after 2 .Site.RegularPages.ByPublishDate.Reverse) }}
+            {{ if eq .Type "post" }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}, {{ .Params.Location }}, {{ .Date.Format "02 January 2006" }}</a></li>
+            {{ end }}
+            {{ end }}
+        </ul> -->
+    </div>
+
+    <div class="span3 bs-docs-sidebar">
+        <h1>{{ i18n "topics" }}</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ partial "tags.html" .}}
+        </ul>
+        <p></p>
+        <h1>{{ i18n "locations" }}</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ partial "categories.html" .}}
+        </ul>
+    </div>
+</div>
+
+{{ end }}

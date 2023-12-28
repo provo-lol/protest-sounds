@@ -1,0 +1,38 @@
+[home]
+other = "Home"
+
+[posts]
+other = "Posts"
+
+[postslist]
+other = "Blog posts"
+
+[episodes]
+other = "Episodes"
+
+[more-episodes]
+other = "More episodes"
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[locations]
+other = "Locations"
+
+[topics]
+other = "topics"
+
+[duration]
+other = "duration"
+
+[languages]
+other = "languages"
+
+[backtohome]
+other = "Back to Home"
+
+[builton]
+other = "Built on"
