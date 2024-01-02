@@ -21,7 +21,7 @@ image: "/img/steentje-voor-steentje.jpg"
 draft: false
 ---
 
-## Verbindingen
+## Koppeling
 
 - [Steentje voor steentje actiepagina van het Jeannette Noëlhuis](https://web.archive.org/web/20231228175105/https://noelhuis.nl/steentje-voor-steentje/)
 
