@@ -61,5 +61,23 @@
                 hreflang="nl"
                 href="https://localhost:1313/tags/"
                 />
+  </url><url>
+    <loc>https://localhost:1313/tags/antifa/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/extreem-rechts/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/fascisme/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/nationale-actiedag-tegen-wilders-tegen-pvv/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/pvv/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/wilders/</loc>
+    <lastmod>2023-12-02T18:47:20+01:00</lastmod>
   </url>
 </urlset>

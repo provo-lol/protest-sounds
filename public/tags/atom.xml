@@ -34,5 +34,50 @@
       <description></description>
     </item>
     
+    <item>
+      <title>antifa</title>
+      <link>https://localhost:1313/tags/antifa/</link>
+      <pubDate>Sat, 02 Dec 2023 18:47:20 +0100</pubDate>
+      
+      <guid>https://localhost:1313/tags/antifa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extreem-rechts</title>
+      <link>https://localhost:1313/tags/extreem-rechts/</link>
+      <pubDate>Sat, 02 Dec 2023 18:47:20 +0100</pubDate>
+      
+      <guid>https://localhost:1313/tags/extreem-rechts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fascisme</title>
+      <link>https://localhost:1313/tags/fascisme/</link>
+      <pubDate>Sat, 02 Dec 2023 18:47:20 +0100</pubDate>
+      
+      <guid>https://localhost:1313/tags/fascisme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PVV</title>
+      <link>https://localhost:1313/tags/pvv/</link>
+      <pubDate>Sat, 02 Dec 2023 18:47:20 +0100</pubDate>
+      
+      <guid>https://localhost:1313/tags/pvv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wilders</title>
+      <link>https://localhost:1313/tags/wilders/</link>
+      <pubDate>Sat, 02 Dec 2023 18:47:20 +0100</pubDate>
+      
+      <guid>https://localhost:1313/tags/wilders/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
