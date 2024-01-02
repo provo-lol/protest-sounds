@@ -19,7 +19,7 @@ image: # "/img/<episode_image>"
 draft: # true/false
 ---
 
-## Links
+## Koppelingen
 
-## Transcript
+## Transcriptie
 
