@@ -29,6 +29,4 @@ draft: false
 
 Aan de transcriptie wordt gewerkt. 
 
-In de tussentijd kunt u ook met een spraakherkenningsprogramma (zoals [Whisper](https://github.com/openai/whisper), van het niet-zo-OpenAI) zelf een redelijke eerste opzet voor een transcriptie verkrijgen.
-
 Fotokrediet: Palestijnse Gemeenschap الجالية الفلسطينية في هولندا
