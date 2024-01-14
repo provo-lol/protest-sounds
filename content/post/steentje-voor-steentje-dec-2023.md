@@ -12,11 +12,11 @@ mp3:
     length: 111389802
     duration: "01:17:21" 
 url: /steentje-voor-steentje-dec-2023
-tags: [kolen, ecotage, klimaat]
+tags: [kolen, ecotage, klimaat, kappen met kolen]
 languages: [Nederlands, Engels]
 categories:
   - Amsterdam
-location: Amsterdam
+location: Westelijk Havengebied, Amsterdam
 image: "/img/steentje-voor-steentje.jpg"
 draft: false
 ---

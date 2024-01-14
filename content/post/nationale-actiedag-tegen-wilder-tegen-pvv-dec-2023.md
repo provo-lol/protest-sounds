@@ -14,7 +14,7 @@ url: /nationale-actiedag-tegen-wilders-tegen-pvv
 tags: [fascisme, antifa, Wilders, PVV, extreem-rechts]
 languages: [Engels, Nederlands]
 categories: [Amsterdam]
-location: Amsterdam
+location: de Dam, Amsterdam
 image: "/img/anti-wilders-anti-pvv.jpg"
 draft: false
 ---
