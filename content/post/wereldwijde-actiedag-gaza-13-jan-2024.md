@@ -23,7 +23,7 @@ draft: false
 
 - [Plant een olijfboom](https://www.planteenolijfboom.nl/)
 - [Avrupa Gençlik Derneği Hollanda (AGD)](https://agdnederland.nl/)
-- [Palestijnsegemeenschap.nl الجالية الفلسطينية - هولندا](https://www.facebook.com/Palestijnsegemeenschap.nl/) (bij hoge uitzondering een koppeling naar het gezichtenboek, omdat de eigen website van de Palestijnse gemeenschap Nederland het ten tijde van het publiceren van deze aflevering niet lijkt te doen...)
+- [Palestijnsegemeenschap.nl الجالية الفلسطينية - هولندا](https://www.facebook.com/Palestijnsegemeenschap.nl/) (bij hoge uitzondering een koppeling naar het gezichtenboek, omdat de eigen website van de Palestijnse Gemeenschap Nederland het ten tijde van het publiceren van deze aflevering niet lijkt te doen...)
 
 ## Transcriptie
 
