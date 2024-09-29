@@ -1,6 +1,6 @@
 ---
 author: Provolol
-title: "Demonstratie Geef Haat Geen Macht"
+title: "Stemmen uit Palestina"
 layout: single
 eptype: full
 date: 2024-09-29T15:00:00+01:00 
